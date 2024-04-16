@@ -1,0 +1,31 @@
+.card__imagenS {
+  width: 189px;
+  height: 145px;
+  border-radius: 20px;
+}
+
+.card__imagen {
+  width: 298px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.row {
+  height: 360px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

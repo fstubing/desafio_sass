@@ -1,0 +1,21 @@
+.form-subscripcion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__input {
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  &__btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}

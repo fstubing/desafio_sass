@@ -1,0 +1,31 @@
+.post {
+  margin-top: 30px;
+}
+
+.autor-y-fecha {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 0px;
+}
+.gray-section {
+  background-color: #cccccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 10px;
+
+  &__parrafo {
+    text-align: justify;
+  }
+
+  &__imagen {
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+  }
+}

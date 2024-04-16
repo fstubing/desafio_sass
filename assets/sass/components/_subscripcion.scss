@@ -1,0 +1,15 @@
+.subscripcion {
+  background-color: #729e2e;
+  border-radius: 20px;
+  padding: 20px 100px;
+  margin-bottom: 50px;
+
+  &__parrafo {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+}

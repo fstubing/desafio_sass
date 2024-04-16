@@ -1,0 +1,24 @@
+// main.scss # manifest file
+
+// 1. Abstract
+
+// 2. Vendors
+
+// 3. Base
+@import "base/reset", "base/typography";
+
+// 4. Layout
+@import "layout/header", "layout/form-login", "layout/footer",
+  "layout/main-home";
+
+// 5. Components
+@import "components/buttons", "components/inputs", "components/articulo",
+  "components/aside", "components/autor", "components/autorcito",
+  "components/card-home", "components/categoria", "components/container-home",
+  "components/informacion", "components/logo", "components/main-titulo",
+  "components/novedades-home", "components/subscripcion",
+  "components/form-subscripcion", "components/relacionados", "components/post";
+
+// 6. Pages
+
+// 7. Themes

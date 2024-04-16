@@ -1,0 +1,54 @@
+.categoria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #fff;
+  width: 298px;
+  height: 89px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.categoria--rojo {
+  background-color: #e93e30;
+}
+
+.categoria--amarillo {
+  background-color: #f7e018;
+}
+
+.categoria--azul {
+  background-color: #299ed5;
+}
+
+.categoria--negro {
+  background-color: #292c33;
+}
+
+.categoria--verde {
+  background-color: #67c770;
+}
+
+.categoria--lila {
+  background-color: #563d7c;
+}
+
+.categoria__imagen {
+  width: 85px;
+  height: 74px;
+}
+
+.categorias__info {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 60px;
+}

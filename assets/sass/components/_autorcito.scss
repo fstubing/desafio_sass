@@ -1,0 +1,19 @@
+.autorcito {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.autorcito__imagen {
+  width: 40px;
+  height: 40px;
+  border-radius: 77px;
+}
+
+.autorcito__nombre {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}

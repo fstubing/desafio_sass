@@ -1,0 +1,31 @@
+.form-login {
+  &__titulo {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  &__parrafo {
+    text-align: center;
+  }
+
+  &__parrafo span {
+    font-weight: bold;
+  }
+}
+
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__input {
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border-style: groove;
+    border-color: #cccccc;
+  }
+}
